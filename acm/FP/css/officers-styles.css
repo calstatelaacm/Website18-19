@@ -1,0 +1,18 @@
+.officer-pictures {
+    width: 80%;
+    height:300px;
+}
+.disabled * {
+    pointer-events: none;
+    opacity: 0;
+    height:0;
+    width:0;
+    font-size: 0;
+}
+.primaries{
+    background-color: #ffce00;
+    color: black;
+    font-weight: bold;
+    font-size: 125%;
+    width: 50%;
+}

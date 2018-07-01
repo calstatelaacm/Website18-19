@@ -1,0 +1,55 @@
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+
+}
+body {
+    background-color: black;
+    background-image: url("../Images/BG(Dark-50).jpg");
+}
+.filmlogo{
+    padding-bottom: 0;
+
+}
+.gif {
+    position: fixed;
+    left: 67px;
+    border-radius: 15px;
+    height: 50%;
+    width: 30%;
+}
+
+.filmstrip {
+    position: fixed;
+    left: 10px;
+    /*margin-top: -125px;*/
+    height: 100%;
+    width: 30%;
+}
+
+.promo-vid {
+}
+
+.btn-gold {
+    font-weight: bold;
+    color: #454545;
+    background-color: #ffce00;
+    border-color: #ffce00;
+}
+
+.btn-gold:focus, btn-gold.focus{
+    font-weight: bold;
+    color: #454545;
+    background-color: #ffce00;
+    border-color: #454545;
+}
+
+.btn-gold:hover{
+    font-weight: bold;
+    color: #454545;
+    background-color: #d8a500;
+    border-color: #d8a500;
+}

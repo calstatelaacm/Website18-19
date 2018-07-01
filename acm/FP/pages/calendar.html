@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calander</title>
+
+    <link rel="icon" href="../Images/CSULALogo.png">
+
+    <link rel="stylesheet" href="../css/DarklyBootstrap.css">
+    <link rel="stylesheet" href="../css/global-styles.css">
+    <link rel="stylesheet" href="../css/calendarStyles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+
+<body style="background-color: black">
+<div>
+
+
+    <!--------------------------------START NAVBAR------------------------------>
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container ">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"
+                        aria-expanded="false">
+                    <span class="glyphicon glyphicon-th-list"></span>
+                </button>
+                <a class="navbar-brand hidden-xs" href="https://www.calstatela.edu/" target="_blank">
+                    <img alt="csula" src="../Images/CalStateLaLogo.png" class="csula-icon hidden-xs hidden-sm">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="Main.html">Home</a></li>
+                    <li class="active-tab"><a href="calendar.html">Calendar</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="officers.html">Officers</a></li>
+                    <!--<li class="active-tab"><a href="contact.html">Contact</a></li>-->
+
+                    <li class="dropdown">
+                        <a href="contact.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">
+                            Contact<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="contact.html">All Media</a></li>
+                            <li><a href="contact.html">Email</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCVNo9r8Dl361BN_h21enm-g/featured"
+                                   target="_blank">YouTube</a></li>
+                            <li><a href="https://www.instagram.com/filmproductionsla/" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/FilmProductionsLA/" target="_blank">Facebook</a></li>
+                            <li><a href="../Images/Snapcode%20Cropped.png" target="_blank">Snapchat</a></li>
+                            <li><a href="https://twitter.com/csulafp" target="_blank">Twitter</a></li>
+                            <li><a href="https://discord.gg/uuX4pDE" target="_blank">Discord</a></li>
+                        </ul>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!----------------------------------END NAVBAR-------------------------------------->
+
+    <span id="calendarTitle">Film Productions</span>
+
+
+    <header style="margin-top: 75px; text-align: center">
+        <h2>Film Productions Calendar</h2>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+                <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=filmproductionsla%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="well well-sm text-center" style="margin-top: 50px">
+            &copy; 2017 Film Productions Club @ Cal State LA. All Rights Reserved.
+        </div>
+    </footer>
+</div>
+</body>
+</html>

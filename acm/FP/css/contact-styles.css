@@ -1,0 +1,50 @@
+
+.logo-images{
+    height: 75%;
+    width: 75%;
+    filter: invert(100%);
+    padding: 10%;
+    margin-top: 0;
+    align-items: center;
+}
+#page-content-wrapper{
+    float: none;
+    text-align: center;
+    margin: 5%;
+}
+h3.list , h2.title{
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+h3.list {
+    font-size: 300%;
+}
+
+h2.title {
+    font-weight: bold;
+    font-size: 350%;
+    margin-bottom: 0;
+}
+
+
+.carousel{
+
+    margin: 20px 0;
+
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.control-buttons{
+    text-align: center;
+}
+.instagram{
+    margin: 20px;
+}
+.instafeed {
+    position: fixed;
+    margin-left: 15%;
+    border-radius: 15px;
+    height: 100%;
+    width: 30%;
+}
