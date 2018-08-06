@@ -125,3 +125,12 @@ background-color: white;
 .navbar .navbar-collapse {
   text-align: center;
 }
+
+.acm-logo{
+	background-color: black;
+	height: 100px;
+  	width: 100px;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
