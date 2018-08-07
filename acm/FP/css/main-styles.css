@@ -8,7 +8,8 @@ div.transbox {
 }
 body {
     background-color: black;
-    background-image: url("../Images/BG(Dark-50).jpg");
+    /*background-image: url("../Images/BG(Dark-50).jpg");*/
+    background-image:url("../img/sprinkles.png")
 }
 .filmlogo{
     padding-bottom: 0;
