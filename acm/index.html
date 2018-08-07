@@ -3,13 +3,14 @@
 
 <head>
   <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
- <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
   <meta charset="utf-8">
   <meta name="keywords" content="Cal State LA, ACM, Computer Science, CS, Programming, Hackathon, CSULA, Cal State LA" />
   <title>Cal State LA ACM</title>
   <link rel="icon" type="image/png" href="img/acm_logo.PNG">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
 
   <script type="text/javascript" src="js/instafeed.min.js"></script>
   <!-- Latest compiled and minified CSS -->
@@ -19,6 +20,7 @@
 
   <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/styleSheet.css">
   <!-- Optional theme -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -30,8 +32,11 @@
 
   <!-- begin navbar -->
   <nav class="navbar navbar-custom navbar-fixed-top">
+
     <div class="container">
+
       <div class="navbar-header">
+
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
           <!-- for screen readers -->
           <span class="sr-only">Toggle navigation</span>
@@ -40,19 +45,25 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+
         <a class="navbar-brand hidden-sm" href="index.html">
           <img alt="acm" src="img/eagle-icon.png" class="eagle-icon hidden-xs hidden-sm">
         </a>
+
       </div>
 
       <div class="collapse navbar-collapse">
+
         <ul class="nav navbar-nav">
+
           <li class="active-tab">
             <a href="index.html">Home</a>
           </li>
+
           <li>
             <a href="pages/calendar.html">Calendar</a>
           </li>
+
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events
               <span class="caret"></span>
@@ -69,6 +80,7 @@
               </li>
             </ul>
           </li>
+
           <li>
             <a href="pages/tutoring.html">Tutoring</a>
           </li>
@@ -92,18 +104,24 @@
           </li>
         </ul>
 
+
         <ul class="nav navbar-nav navbar-right show-for-large-up hidden-md hidden-sm">
+
           <li>
             <a class="navbar-brand" href="https://www.facebook.com/acm.calstatela" target="_blank">
               <img alt="facebook" src="img/social_media/facebook-logo-white.png" class="logo">
             </a>
           </li>
+
           <li>
             <a class="navbar-brand" href="https://instagram.com/calstatela_acm/" target="_blank">
               <img alt="instagram" src="img/social_media/instagram-logo-white.png" class="logo">
             </a>
           </li>
+
         </ul>
+
+
       </div>
       <!-- /.navbar-collapse -->
     </div>
@@ -113,51 +131,76 @@
 
   <!-- begin body -->
   <div class="container">
+
     <div class="row">
-        <img alt="acm" src="img/acm_logo.PNG" class="acm-logo hidden-xs hidden-sm">
+
+      <img alt="acm" src="img/acm_logo.png" class="acm-logo hidden-xs hidden-sm">
+
       <div class="col-xs-*">
         <h1 class="text-center">Cal State LA's Computer Science Club</h1>
-        <h5 class="text-center">Our Student Chapter of ACM</h5>
-        <div class="hr margin-top-30"></div>
+        <h5 class="text-center nice-looking">Our Student Chapter of ACM</h5>
+        <hr class="black-hr margin-top-30"></hr>
       </div>
+
     </div>
-    <!---------------------- START Quarter Meetings ----------------------------->
     <div class="row margin-15">
       <div class="col-lg-10 col-centered">
+
         <br>
 
         <div class="row margin-top-15">
-          <div class="col-xs-5 col-md-3 col-lg-2 bold">
+
+
+          <div class="col-xs-5 col-md-3 col-lg-2 bold titles">
             Meetings:
           </div>
+
+
           <div class="col-xs-5 col-md-7 col-lg-9">
-            <p>
-              <i>
-                <u>Meetings are every other Tuesday, but feel free to stop by even during our off weeks!
-                  <br/> Our first meeting for Fall semester 2018 is to be anounced soon.
-                </u>
-              </i>
-            </p>
-            <p>
+
+            <p class="meeting-info">Our first meeting for Fall semester 2018 will be held in August 28th.
               <br/>
-              <u>Room</u>: ET C-245</p>
+              <u>Room</u>: ET C-245
+            </p>
+
           </div>
+
+
         </div>
-        <!---------------------- END Quarter Meetings ----------------------------->
-        <hr>
-        <!---------------------- START Quarter Project ----------------------------->
+
+        <hr class="black-hr">
+
         <div class="row margin-top-15">
-          <div class="col-xs-5 col-md-3 col-lg-2 bold">
-            Project of the Semester:
+
+          <div class="col-xs-5 col-md-4 col-lg-3 titles">
+            Fall Project #1:
           </div>
+
           <div class="col-xs-5 col-md-7 col-lg-9">
-            <p>Arduino Car:</p>
-            <p>In this project, studnets will design a remote controlled car with arduinos and various types of sensors. **
-              More updates coming soon ** </p>
+            <p class="meeting-info meeting-info-title">Arduino-Car:</p>
+            <p class="meeting-info">In this project, students will design a remote controlled car with arduinos and various types of sensors.</p>
           </div>
+
         </div>
-        <!---------------------- END Quarter Project ----------------------------->
+
+        <hr class="black-hr">
+
+        <div class="row margin-top-15">
+
+          <div class="col-xs-5 col-md-4 col-lg-3 titles">
+            Fall Project #2:
+          </div>
+
+          <div class="col-xs-5 col-md-7 col-lg-9">
+            <p class="meeting-info meeting-info-title">Social-media Development:</p>
+            <p class="meeting-info">Students will develop a social media platform using various tools and languages like Java, MySQL, github, maven,
+              etc.</p>
+          </div>
+
+        </div>
+
       </div>
+
     </div>
 
     <!---------------------- START Instagram Feed ----------------------------->
@@ -176,7 +219,7 @@
       });
       feed.run();
     </script>
-    <hr>
+    <hr class="black-hr">
     <div class="container">
       <h2 class="text-center hidden-xs">ACM Instagram Feed</h2>
       <img class="img-responsive center-block hidden-xs" src="img/insta.png" alt="Instagram Icon" height="64" width="64">
@@ -204,11 +247,12 @@
   <!-- begin footer -->
   <footer class="footer">
     <div class="container">
-        <div class="hr"></div>
-        <p class="text-center footer-text">
-          Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by the members of Cal State LA Association for Computing Machinery <br>
-          &copy; 2018 Cal State LA ACM. All rights reserved.
-        </p>
+      <div class="hr"></div>
+      <p class="text-center footer-text">
+        Made with
+        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by the members of Cal State LA Association for Computing Machinery
+        <br> &copy; 2018 Cal State LA ACM. All rights reserved.
+      </p>
     </div>
   </footer>
   <!-- end footer -->
@@ -217,10 +261,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script>
     (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date(); a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-79743314-1', 'auto');

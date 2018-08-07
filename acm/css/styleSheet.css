@@ -1,80 +1,57 @@
-div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-h1,h2,h3,h4,h5,h6 {
-	font-family: 'Corben', Georgia, Times, serif;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-    line-height: 26.4px;
-    color: red;
+/* paragraph styling */
 
-}
-p, div {
-    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+.nice-looking {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 31px;
+    letter-spacing: -0.4px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
 }
 
-#h1{
-    align-content: center;
+.meeting-info {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 350;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
 }
 
-.form-control{
-    width: 50%;
-
+.titles {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 28px;
+    letter-spacing: -0.4px;
+    word-spacing: 1px;
+    color: #FF0000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
 }
 
-#btn{
-    width: 40%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 30px;
-    color: white;
+.meeting-info-title{
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
 }
 
-/* Style the buttons inside the tab */
-div.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-div.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-div.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}
-
-body {
-    background-image: url(img/sprinkles.png) repeat 0 0;
-}
-body {
-    background-image: url("sprinkles.png");
-}
-/*body{
-    background: url("img/sprinkles/sprinkles.png");
-}
-*/
-
-footer{
-    text-align: center;
+.tutor-classes{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
 }
