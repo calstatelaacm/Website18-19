@@ -55,3 +55,7 @@
     font-variant: normal;
     text-transform: uppercase;
 }
+
+.img {
+    image-orientation: from-image;
+}
