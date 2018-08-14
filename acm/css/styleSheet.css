@@ -56,7 +56,11 @@
     text-transform: uppercase;
 }
 
-
+.logo1 {
+  margin-top: -8px;
+  height: 35px;
+  width: 50px;
+}
 
 /* .success:hover {
     background-color: #4CAF50;
