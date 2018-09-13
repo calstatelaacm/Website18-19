@@ -4,6 +4,7 @@
 <head>
 
   <link href="css/slider.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" type="text/css" />
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
   <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
@@ -166,14 +167,31 @@
 <div class="ct-header ct-header--slider ct-slick-custom-dots" id="home">
       <div class="ct-slick-homepage" data-arrows="true" data-autoplay="true">
 
-        <div class="ct-header tablex item" data-background="img/slide1.jpg">
+        <div class="ct-header tablex item" data-background="img/cybersecurity.jpg">
           <div class="ct-u-display-tablex">
             <div class="inner">
               <div class="container">
                 <div class="row">
                   <div class="col-md-8 col-lg-6 slider-inner">
-                    <h1 class="big">Need extra credit for your C.S. classes?</h1>
-                    <p>Our Loyalty Card program gives you extra credit, all you have to do is attend our meetings and events.</p>
+                    <h1 class="big">Interested in Cybersecurity?</h1>
+                    <p>Join us with our guest speaker "Jacob Margolis" who will be talking about how to succeed in the field of Cybersecurity. RSVP now!</p>
+                    <a class="btn btn-transparent btn-lg text-uppercase" href="pages/cybersecurity.html" target="_blank"><font color="red"><b>Learn More</b></font></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+         <div class="ct-header tablex item" data-background="img/slide1.jpg">
+          <div class="ct-u-display-tablex">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-lg-6 slider-inner">
+                    <h1 class="big">Are you on the waitlist for Extra Credit?</h1>
+                    <p>We apologize but we are running at full capacity! Click below to know more:</p>
                     <a class="btn btn-transparent btn-lg text-uppercase" href="pages/loyalty_card.html" target="_blank">Learn More</a>
                   </div>
                 </div>
@@ -198,21 +216,7 @@
           </div>
         </div>
 
-        <div class="ct-header tablex item" data-background="img/slide3.jpg">
-          <div class="ct-u-display-tablex">
-            <div class="inner">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-8 col-lg-6 slider-inner">
-                    <h1 class="big">Join us for our first workshop on September 11th</h1>
-                    <p>We will be starting with building the Arduino Car and our Social Media Project in Room TBD from 3:00PM - 4:20PM</p>
-                    <a class="btn btn-transparent btn-lg text-uppercase" href="pages/events.html">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
         <div class="ct-header tablex item" data-background="img/tutoring_flyer.jpg">
           <div class="ct-u-display-tablex">
@@ -237,7 +241,7 @@
                 <div class="row">
                   <div class="col-md-8 col-lg-6 slider-inner">
                     <h1 class="big">New members: pick up your free shirt!</h1>
-                    <p>Stop by during our office hours.</p>
+                    <p>Stop by during our office hours ONLY IF YOU BOUGHT THE $10 MEMBERSHIP.</p>
                     <a class="btn btn-transparent btn-lg text-uppercase" href="pages/contact.html" target="_blank">Click Here for Office Hours</a>
                   </div>
                 </div>
@@ -250,10 +254,86 @@
       </div><!-- .ct-slick-homepage -->
     </div><!-- .ct-header -->
 
-    <div style="position: absolute; top:80px; left:900px; width:200px; height:25px">
-      <a class="navbar-brand" href="pages/contact.html" target="_blank">
-        <button class="btn-danger">Office Hours to collect your SHIRT!</button>
+    <div class="home-page-icon-boxes">
+            <div class="container">
+                <div class="row">
+
+                  <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+                    <a href="pages/membership.html">
+                      <div class="icon-box">
+                          <figure class="d-flex justify-content-center">
+                              <img src="img/donation-gray.png" alt="">
+                              <img src="img/donation-white.png" alt="">
+                          </figure>
+
+                          <header class="entry-header">
+                              <h3 class="entry-title">Become a Member!</h3>
+                          </header>
+
+                          <div class="entry-content">
+                              <p>And receive all benefits of ACM! </p>
+                          </div>
+
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+                    <a href="pages/calendar.html">
+                      <div class="icon-box">
+                          <figure class="d-flex justify-content-center">
+                              <img src="img/charity-gray.png" alt="">
+                              <img src="img/charity-white.png" alt="">
+                          </figure>
+
+                          <header class="entry-header">
+                              <h3 class="entry-title">Calendar</h3>
+                          </header>
+
+                          <div class="entry-content">
+                              <p>Don't miss out on events!</p>
+                          </div>
+                        </a>
+                      </div>
+                  </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+                      <a href="pages/contact.html">
+                        <div class="icon-box">
+                            <figure class="d-flex justify-content-center">
+                                <img src="img/hands-gray.png" alt="">
+                                <img src="img/hands-white.png" alt="">
+                            </figure>
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Contact Us!</h3>
+                            </header>
+
+                            <div class="entry-content">
+                                <p> We are available!  </p>
+                            </div>
+</a>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .home-page-icon-boxes -->
+
+
+    <div style="position: absolute; top:50px; left:900px; width:200px; height:25px">
+      <a class="navbar-brand" href="pages/cybersecurity.html" target="_blank">
+        <button class="btn-danger">CYBERSECURITY EVENT</button>
       </a></div>
+
+      <div style="position: absolute; top:120px; left:900px; width:200px; height:25px">
+        <a class="navbar-brand" href="pages/venom_movie.html" target="_blank">
+          <button class="btn-info">VENOM Movie Fundrasier</button>
+        </a></div>
 
 
 
@@ -330,7 +410,7 @@
 <li><b>Networking</b>: Meet with other fellow CS Cal State LA students.</li>
 <li><b>Volunteer Opportunities </b>(Letter reflecting volunteer hours will be provided if needed)
 </li>
-<li><b><a href="pages/loyalty_card.html" target="_blank">Loyalty Card Program</a> (Extra Credit)<br>
+<li><b><a href="pages/loyalty_card.html" target="_blank">Loyalty Card Program</a> (Extra Credit) <font color="red">Deadline passed, deadline was Sept 7th by 5PM</b><br>
 </a>
 </li>
 
@@ -363,7 +443,9 @@
 
             <p class="meeting-info">Our first workshop meeting for Fall semester 2018 will be held on September 11th in
               <br/>
-              <u>Room</u>: FA 321
+              <u>Room</u>: FA 321 for Arduino Car project, and <br>
+              <u>Room</u>: KH D2076 for Social Media Project <br> from 3:00PM - 4:20PM
+
             </p>
 
           </div>
@@ -382,6 +464,7 @@
           <div class="col-xs-5 col-md-7 col-lg-9">
             <p class="meeting-info meeting-info-title">Arduino-Car:</p>
             <p class="meeting-info">In this project, students will design a remote controlled car with arduinos and various types of sensors.</p>
+            <p> Download files for Arduino Car Workshop here --> <a href="Arduino_Robot_Car.zip"> Download </a>
           </div>
 
         </div>
