@@ -22,6 +22,8 @@ li + img  {
 
 
 
+
+
 .glyphicon-heart {
   color: #ec0f0f;
 }
@@ -64,6 +66,17 @@ li + img  {
   width: 100%;
 }
 
+.responsive-pic {
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive-button {
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
 .warning {
     color: red;
 }
@@ -74,6 +87,12 @@ li + img  {
     background-color: rgba(50,50,50,.05);
     border-radius: 20px;
     text-align: start;
+}
+
+.box-buffer {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 8px;
 }
 
 .hr {
