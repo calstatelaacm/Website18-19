@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<header>
 
   <link href="css/slider.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -30,7 +30,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 
-</head>
+</header>
 
 <body style="background-image:url(img/stripes-light.png)">
 
@@ -121,8 +121,6 @@
               <button class="btn-success">Become a Member!</button>
             </a>
           </li>
-
-        </li>
           <li>
             <a class="navbar-brand" href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218" target="_blank">
               <img alt="facebook" src="img/social_media/facebook-logo-white.png" class="logo">
@@ -135,8 +133,6 @@
             </a>
           </li>
           <li>
-
-
         </ul>
 
 
@@ -567,7 +563,8 @@
         limit: '10',
         accessToken: '1055527561.1677ed0.554b0c70d38647059ef0fbe6fbe95385',
         resolution: "standard_resolution",
-        template: '<div class="item"><a href="{{link}}"><img src="{{image}}"/></a><div class="carousel-caption">{{caption}}</div></div>',
+        template: '<div class="item"><a href="{{link}}"><img src="{{image}}"/></a></div>',
+        resolution: 'thumbnail',
         after: function () {
           $('#instafeed > div:nth-child(1)').addClass('active');
         }
