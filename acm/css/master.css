@@ -77,9 +77,6 @@ li + img  {
     white-space: normal;
 }
 
-.warning {
-    color: red;
-}
 
 .description-box-black{
     max-width: 95%;
@@ -93,6 +90,7 @@ li + img  {
     margin-top: 15px;
     padding-left: 15px;
     padding-bottom: 8px;
+    padding-right: 20px;
 }
 
 .hr {
