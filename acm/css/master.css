@@ -11,6 +11,17 @@ body {
   /* background-color: #E0E0E0; */
 }
 
+li + img  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.indent {
+    padding-left: 30px;
+}
+
+
+
 .glyphicon-heart {
   color: #ec0f0f;
 }
@@ -53,8 +64,20 @@ body {
   width: 100%;
 }
 
+.warning {
+    color: red;
+}
+
+.description-box-black{
+    max-width: 95%;
+    max-height: 100%;
+    background-color: rgba(50,50,50,.05);
+    border-radius: 20px;
+    text-align: start;
+}
+
 .hr {
-  width: 80%;
+  width: 97%;
   height: 2px;
   background-color: #E0E0E0;
   margin: 10px  auto;
@@ -78,6 +101,11 @@ body {
 .margin-top-15 {
   margin-top: 15px;
 }
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
 
 .col-centered {
   float: none;
