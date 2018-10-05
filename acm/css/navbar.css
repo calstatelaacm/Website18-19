@@ -132,6 +132,11 @@ background-color: white;
   text-align: center;
 }
 
+.acm_nav {
+	height: 10%;
+	width: 10%;
+}
+
 .acm-logo{
 	height: 100px;
   	width: 100px;
