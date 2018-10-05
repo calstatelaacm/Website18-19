@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<header>
+<head>
 
   <link href="css/slider.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -30,7 +30,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 
-</header>
+</head>
 
 <body style="background-image:url(img/stripes-light.png)">
 
@@ -121,6 +121,8 @@
               <button class="btn-success">Become a Member!</button>
             </a>
           </li>
+
+        </li>
           <li>
             <a class="navbar-brand" href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218" target="_blank">
               <img alt="facebook" src="img/social_media/facebook-logo-white.png" class="logo">
@@ -133,6 +135,8 @@
             </a>
           </li>
           <li>
+
+
         </ul>
 
 
@@ -166,6 +170,48 @@
 
 <div class="ct-header ct-header--slider ct-slick-custom-dots" id="home">
       <div class="ct-slick-homepage" data-arrows="true" data-autoplay="true">
+<!-- CSULA Hackathon -->
+	<div class="ct-header tablex item" data-background="img/bricks.jpg">
+          <div class="ct-u-display-tablex">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-lg-6 slider-inner">
+                    <h1 class="big"><font color="black">CSULA Hackathon</h1></font>
+                    <p>Do you want a chance to join a Hackathon at CSULA? <br>
+		    <b><u>When:</b></u> Sunday, Oct 14th, from 12:30pm – 1:30pm<br>
+                    <b><u>Location:</b></u> Community Room – Library North B131<br>
+                    <b><u>Deadline</u> to RSVP</b>: Wednesday, October 3rd  <br><br></font>
+                    <a class="btn btn-transparent btn-lg text-uppercase" href="https://docs.google.com/forms/d/e/1FAIpQLSff7svaUZOJ2h4LvIFCIfVLfeBrZiki-63Je11EoYb15n7CYg/viewform" target="_blank"><font color="black"><b>RSVP NOW!</b></font></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- Heenac Conference --> 
+
+	<div class="ct-header tablex item" data-background="img/bricks.jpg">
+          <div class="ct-u-display-tablex">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-lg-6 slider-inner">
+                    <h1 class="big"><font color="black">Hennaac Career Fair</h1></font>
+                    <p>Get a head start in your career! Network with many companies!<br>
+		    <b><u>When:</b></u> Saturday, October 20th<br>
+                    <b><u>Location:</b></u> N/A<br>
+                    <b><u>Deadline</u> to RSVP</b>: N/A<br><br></font>
+                    <a class="btn btn-transparent btn-lg text-uppercase" href="https://docs.google.com/forms/d/e/1FAIpQLSff7svaUZOJ2h4LvIFCIfVLfeBrZiki-63Je11EoYb15n7CYg/viewform" target="_blank"><font color="black"><b>RSVP NOW!</b></font></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- End -->
 
         <div class="ct-header tablex item" data-background="img/google.jpg">
           <div class="ct-u-display-tablex">
@@ -253,20 +299,13 @@
                   <div class="col-md-8 col-lg-6 slider-inner">
                     <h1 class="big"><font color="black">Board member of the month:</h1></font>
                     <p><b><font color="black">GIOVANNI ALEJANDRA GARCIA</b></font>
-                      <br> VP of Internal Affairs <br>
-
-                           </p>
-
+                      <br> VP of Internal Affairs <br></p
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
-
-
 
         <div class="ct-header tablex item" data-background="img/tutoring_flyer.jpg">
           <div class="ct-u-display-tablex">
@@ -562,9 +601,8 @@
         sortBy: 'most-recent',
         limit: '10',
         accessToken: '1055527561.1677ed0.554b0c70d38647059ef0fbe6fbe95385',
-        resolution: "standard_resolution",
+        resolution: "thumbnail",
         template: '<div class="item"><a href="{{link}}"><img src="{{image}}"/></a></div>',
-        resolution: 'thumbnail',
         after: function () {
           $('#instafeed > div:nth-child(1)').addClass('active');
         }
