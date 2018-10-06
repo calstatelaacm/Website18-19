@@ -98,16 +98,6 @@
     width: 50%;
 }
 
-.imgmargin-benifits{
-    margin-top: 100px;
-    margin-left: 50px;
-}
-
-.imgmargin-meeting{
-    margin-top: 80px;
-    margin-left: 50px;
-}
-
 .imgmargin-arduniocar{
     margin-top: 50px;
     margin-left: 50px;
@@ -116,4 +106,8 @@
 .imgmargin-socialmedia{
     margin-top: 150px;
     margin-left: 50px;
+}
+
+.margin{
+    margin-left: 300px;
 }
