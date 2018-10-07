@@ -1,5 +1,24 @@
 /* paragraph styling */
 
+
+
+.imgmargin-benifits{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.imgmargin-meeting{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.imgmargin-arduniocar{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.imgmargin-socialmedia{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
 .nice-looking {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 31px;
@@ -19,7 +38,7 @@
     letter-spacing: 0px;
     word-spacing: 2px;
     color: #000000;
-    font-weight: 350;
+    /*font-weight: 350;*/
     font-style: normal;
     font-variant: normal;
     text-transform: none;
@@ -90,7 +109,7 @@
 .info {color: dodgerblue;}
 .warning {color: orange;}
 .danger {color: red;}
-.default {color: black;} */ */
+.default {color: black;} */
 .center {
     display: block;
     margin-left: auto;
