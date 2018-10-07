@@ -44,12 +44,13 @@
 }
 
 /* dropdown menu list items */
-.dropdown-menu > li > a {
+.dropdown-item  {
   background-color: #000000;
   color: #FFFFFF;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 
 /* display drop down menu on hover */
 .dropdown:hover .dropdown-menu {
@@ -120,6 +121,12 @@ background-color: white;
 
 .relative {
   position: relative;
+}
+
+
+.navbar-item {
+  padding-left: auto;
+  padding-right: 10px;
 }
 
 .navbar .navbar-nav {
