@@ -2,111 +2,122 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="keywords" content="Cal State LA, ACM, Computer Science, CS, Programming, Hackathon, CSULA, Cal State LA" />
-  <title>Cal State LA ACM</title>
-  <link rel="icon" type="image/png" href="../img/eagle-icon.png">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400, 700" rel="stylesheet" type="text/css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/master.css">
-  <link rel="stylesheet" href="../css/navbar.css">
-  <link rel="stylesheet" href="../css/styleSheet.css">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Cal State LA, ACM, Computer Science, CS, Programming, Hackathon, CSULA, Cal State LA" />
+
+    <link rel="icon" type="image/png" href="../img/acm_logo.PNG">
+    
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/styleSheet.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Corben:bold"  type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile"  type="text/css">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"  type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+    <title>Cal State LA ACM</title>
 </head>
 
 <body style="background-image:url(../img/stripes-light.png)">
 
-  <!-- begin navbar -->
-  <nav class="navbar navbar-custom navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
-          <!-- for screen readers -->
-          <span class="sr-only">Toggle navigation</span>
-          <!-- for hamburger menu icon -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand hidden-sm" href="../index.html">
-          <img alt="acm" src="../img/eagle-icon.png" class="eagle-icon hidden-xs hidden-sm">
-        </a>
-      </div>
+<!-- begin navbar -->
+    <div>
+        <nav class="navbar navbar-custom navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- this button will not be collapsable: aria-expanded = false -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                    <!-- for screen readers -->
+                    <span class="sr-only">Toggle navigation</span>
+                    <!-- for hamburger menu icon (horizontal lines of hamburger icon) -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="../index.html">Home</a>
-          </li>
-          <li>
-            <a href="../pages/calendar.html">Calendar</a>
-          </li>
-          <li class="active-tab">
-            <a href="../pages/membership.html">Membership</a>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="../pages/events.html">General Events</a>
-              </li>
-              <li>
-               <a href="../pages/loyalty_card.html">Loyalty Card Program</a>
-             </li>
-              <li>
-                <a href="../pages/workshops.html">Past Workhops</a>
-              </li>
+                <a class="navbar-brand" href="../index.html">
+                    <img alt="acm" src="../img/logos/acm_small.PNG" class="acm-nav-logo">
+                </a>
 
-            </ul>
-          </li>
-          <li>
-            <a href="../pages/tutoring.html">Tutoring</a>
-          </li>
+                <!-- navbar-collapse. Buttons and items are collapsable -->
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/calendar.html">
+                                Calendar
+                            </a>
+                        </li>
+                        <li class="nav-item active-tab">
+                            <a class="nav-link" href="../pages/membership.html">
+                                Membership
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <!-- caret is arrow symbol -->
+                                Resources</span><span class="caret"/>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="../pages/events.html">General Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../pages/loyalty_card.html">Loyalty Card Program</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../pages/workshops.html">Past Workhops</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/tutoring.html">
+                                Tutoring
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Officers<span class="caret"></span>
+                            </a>
 
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Officers
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="../pages/officers.html">Current</a>
-              </li>
-              <li>
-                <a href="../pages/past_officers.html">Hall of Fame</a>
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <a href="../pages/contact.html">Contact</a>
-          </li>
-        </ul>
-
-        <ul class="nav navbar-nav navbar-right show-for-large-up hidden-md hidden-sm">
-          <li>
-            <a class="navbar-brand" href="../pages/membership.html">
-              <button class="btn-success">Become a Member!</button>
-            </a>
-          </li>
-          <li>
-            <a class="navbar-brand" href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218" target="_blank">
-              <img alt="facebook" src="../img/social_media/facebook-logo-white.png" class="logo">
-            </a>
-          </li>
-          <li>
-            <a class="navbar-brand" href="https://instagram.com/calstatela_acm/" target="_blank">
-              <img alt="instagram" src="../img/social_media/instagram-logo-white.png" class="logo">
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a class="dropdown-item" href="../pages/officers.html">Current</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="dropdown-item" href="../pages/past_officers.html">Hall of Fame</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../pages/contact.html">
+                                Contact
+                            </a>
+                        </li>
+                        <a class="nav-link" href="../pages/membership.html">
+                            <button class="btn btn-success btn-custom">Become a Member!</button>
+                        </a>
+                        <a class="nav-link" href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218" target="_blank">
+                            <img alt="facebook" src="../img/social_media/facebook-logo-white.png" class="social-media-logo-1">
+                        </a>
+                        <a class="nav-link" href="https://instagram.com/calstatela_acm/" target="_blank">
+                            <img alt="instagram" src="../img/social_media/instagram-logo-white.png" class="social-media-logo-2">
+                        </a>
+                    </ul>
+                </div>
+            <!-- /.container -->
+            </div>
+        </nav>
     </div>
-    <!-- /.container -->
-  </nav>
-  <!-- /navbar -->
-  <ul class="nav navbar-nav navbar-right show-for-large-up hidden-md hidden-sm"> </ul>
+  <!-- /navbar end -->
 
   <!-- begin body -->
 

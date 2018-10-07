@@ -1,7 +1,21 @@
+/* for collapse preference. Toggle icon will appear at > 1260px */
+@media (min-width: 0px) and (max-width: 1120px) {
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    #navbar {
+       display: none !important;
+    }
+}
+
 /* navbar */
-.navbar-custom {
+.navbar-toggle {
+  color: white;
+}
+.navbar.navbar-custom {
   background-color: black;
   border-color: #FFFFFF;
+  border: 0;
 }
 
 /* navbar default text */
@@ -20,8 +34,8 @@
 .navbar-custom .navbar-nav > .active-tab > a:focus {
   background-color: #FFD400;
   color: #000000;
-  border-radius: 2px;
-  font-weight: bold;
+  margin: none;
+  /*font-weight: bold;*/
 }
 
 /* navbar hover over tabs */
@@ -29,6 +43,12 @@
 .navbar-custom .navbar-nav > li > a:focus {
   background-color: #666666;
   border-radius: 2px;
+}
+
+.navbar-custom .navbar-brand, img:hover,
+.navbar-custom .navbar-brand, img:focus {
+  color: red;
+  /* background-color: transparent; */
 }
 
 .dropdown-menu {
@@ -45,8 +65,8 @@
 
 /* dropdown menu list items */
 .dropdown-menu > li > a {
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: white;
+  color: white;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -57,17 +77,9 @@
   margin-top: 0;
 }
 
-.eagle-icon {
-  margin-top: -15px;
-  margin-left: -15px;
-  margin-right: 30px;
-  height: 50px;
-  width: 50px;
-}
-
 /* social media logos */
 .logo {
-  margin-top: -8px;
+  margin-top: 7px;
   height: 35px;
   width: 35px;
 }
@@ -82,12 +94,6 @@
 /* .navbar-brand > img.logo {
 background-color: white;
 } */
-
-.navbar-custom .navbar-brand, img:hover,
-.navbar-custom .navbar-brand, img:focus {
-  color: red;
-  /* background-color: transparent; */
-}
 
 /* for footer text */
 .navbar-text {
@@ -112,24 +118,32 @@ background-color: white;
 /* to change color of hamburger menu */
 .navbar-custom .navbar-toggle .icon-bar {
     background-color: white;
+    margin-left:3rem;
+    margin-right:3rem;
 }
 
 .footer-text {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 .relative {
-  position: relative;
+    position: relative;
+}
+
+.btn-custom {
+    margin-top: 7px;
+    margin-left: 5rem;
+    margin-right: 2rem;
 }
 
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+    text-align: center;
 }
 
 .acm_nav {
@@ -138,9 +152,39 @@ background-color: white;
 }
 
 .acm-logo{
-	height: 100px;
+    height: 100px;
   	width: 100px;
   	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.acm-nav-logo {
+    margin-top: -1rem;
+    margin-left: 4rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+.social-media-logo-1 {
+    margin-top: 7px;
+    height: 35px;
+    width: 35px;
+}
+
+.social-media-logo-2 {
+    margin-top: 7px;
+    height: 35px;
+    width: 35px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
 }
