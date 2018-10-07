@@ -2,341 +2,182 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="Cal State LA, ACM, Computer Science, CS, Programming, Hackathon, CSULA, Cal State LA" />
-
-    <link rel="icon" type="image/png" href="../img/acm_logo.PNG">
-    
-    <link rel="stylesheet" href="../css/master.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/styleSheet.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Corben:bold"  type="text/css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile"  type="text/css">    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"  type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
-
-    <!-- AddEvent -->
-    <script type="text/javascript" src="https://addevent.com/libs/stc/1.0.2/stc.min.js" async defer></script>
-
-    <title>Cal State LA ACM</title>
-</head>
-
-<body style="background-image:url(../img/stripes-light.png)">
-<!-- begin navbar -->
-    <div>
-        <nav class="navbar navbar-custom navbar-fixed-top">
-            <div class="container-fluid">
-                <!-- this button will not be collapsable: aria-expanded = false -->
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-                    <!-- for screen readers -->
-                    <span class="sr-only">Toggle navigation</span>
-                    <!-- for hamburger menu icon (horizontal lines of hamburger icon) -->
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <a class="navbar-brand" href="../index.html">
-                    <img alt="acm" src="../img/logos/acm_small.PNG" class="acm-nav-logo">
-                </a>
-
-                <!-- navbar-collapse. Buttons and items are collapsable -->
-                <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/calendar.html">
-                                Calendar
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/membership.html">
-                                Membership
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown active-tab">
-                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                <!-- caret is arrow symbol -->
-                                Resources</span><span class="caret"/>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="../pages/events.html">General Events</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="../pages/loyalty_card.html">Loyalty Card Program</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="../pages/workshops.html">Past Workhops</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/tutoring.html">
-                                Tutoring
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                Officers<span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-item">
-                                    <a class="dropdown-item" href="../pages/officers.html">Current</a>
-                                </li>
-                                <li class="dropdown-item">
-                                    <a class="dropdown-item" href="../pages/past_officers.html">Hall of Fame</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../pages/contact.html">
-                                Contact
-                            </a>
-                        </li>
-                        <a class="nav-link" href="../pages/membership.html">
-                            <button class="btn btn-success btn-custom">Become a Member!</button>
-                        </a>
-                        <a class="nav-link" href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218" target="_blank">
-                            <img alt="facebook" src="../img/social_media/facebook-logo-white.png" class="social-media-logo-1">
-                        </a>
-                        <a class="nav-link" href="https://instagram.com/calstatela_acm/" target="_blank">
-                            <img alt="instagram" src="../img/social_media/instagram-logo-white.png" class="social-media-logo-2">
-                        </a>
-                    </ul>
-                </div>
-            <!-- /.container -->
-            </div>
-        </nav>
-    </div>
-  <!-- /navbar end -->
-=======
-    <meta name="keywords"
-          content="Cal State LA, ACM, Computer Science, CS, Programming, Hackathon, CSULA, Cal State LA"/>
-    <title>Cal State LA ACM</title>
-    <link rel="icon" type="image/png" href="../img/eagle-icon.png">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400, 700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/master.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/styleSheet.css">
-    <!-- AddEvent -->
-    <script type="text/javascript" src="https://addevent.com/libs/stc/1.0.2/stc.min.js" async defer></script>
+  <meta charset="utf-8">
+  <meta name="keywords" content="Cal State LA, ACM, Computer Science, CS, Programming, Hackathon, CSULA, Cal State LA" />
+  <title>Cal State LA ACM</title>
+  <link rel="icon" type="image/png" href="../img/eagle-icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400, 700" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/master.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/styleSheet.css">
+  <!-- AddEvent -->
+  <script type="text/javascript" src="https://addevent.com/libs/stc/1.0.2/stc.min.js" async defer></script>
 
 
 </head>
 
 <body style="background-image:url(../img/stripes-light.png)">
 
-<!-- begin navbar -->
-<nav class="navbar navbar-custom navbar-fixed-top">
+  <!-- begin navbar -->
+  <nav class="navbar navbar-custom navbar-fixed-top">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"
-                    aria-expanded="false">
-                <!-- for screen readers -->
-                <span class="sr-only">Toggle navigation</span>
-                <!-- for hamburger menu icon -->
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+          <!-- for screen readers -->
+          <span class="sr-only">Toggle navigation</span>
+          <!-- for hamburger menu icon -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand hidden-sm" href="../index.html">
+          <img alt="acm" src="../img/eagle-icon.png" class="eagle-icon hidden-xs hidden-sm">
+        </a>
+      </div>
 
-        </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="../pages/calendar.html">Calendar</a>
+          </li>
+          <li>
+            <a href="../pages/membership.html">Membership</a>
+          </li>
+          <li class="dropdown active-tab">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="../pages/events.html">General Events</a>
+              </li>
+              <li>
+                <a href="../pages/loyalty_card.html">Loyalty Card Program</a>
+              </li>
+              <li>
+                <a href="../pages/workshops.html">Past Workhops</a>
+              </li>
 
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li>
-                <a class="navbar-brand hidden-sm" href="../index.html">
-                    <img alt="acm" src="../img/eagle-icon.png" class="eagle-icon hidden-xs hidden-sm">
-                </a>
-                </li>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="../pages/calendar.html">Calendar</a>
-                </li>
-                <li>
-                    <a href="../pages/membership.html">Membership</a>
-                </li>
-                <li class="dropdown active-tab">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="true">Resources
-                        <!--<span class="caret"></span>-->
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="../pages/events.html">General Events</a>
-                        </li>
-                        <li>
-                            <a href="../pages/loyalty_card.html">Loyalty Card Program</a>
-                        </li>
-                        <li>
-                            <a href="../pages/workshops.html">Past Workhops</a>
-                        </li>
-
-                    </ul>
-                </li>
-                <li>
-                    <a href="../pages/tutoring.html">Tutoring</a>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">Officers
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="../pages/officers.html">Current</a>
-                        </li>
-                        <li>
-                            <a href="past_officers.html">Hall of Fame</a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="../pages/contact.html">Contact</a>
-                </li>
             </ul>
+          </li>
+          <li>
+            <a href="../pages/tutoring.html">Tutoring</a>
+          </li>
 
-            <ul class="nav navbar-nav navbar-right show-for-large-up hidden-md hidden-sm">
-                <li>
-                    <a class="navbar-brand" href="../pages/membership.html">
-                        <button class="btn-success">Become a Member!</button>
-                    </a>
-                </li>
-                <li>
-                    <a class="navbar-brand"
-                       href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218"
-                       target="_blank">
-                        <img alt="facebook" src="../img/social_media/facebook-logo-white.png" class="logo">
-                    </a>
-                </li>
-                <li>
-                    <a class="navbar-brand" href="https://instagram.com/calstatela_acm/" target="_blank">
-                        <img alt="instagram" src="../img/social_media/instagram-logo-white.png" class="logo">
-                    </a>
-                </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Officers
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="../pages/officers.html">Current</a>
+              </li>
+              <li>
+                <a href="past_officers.html">Hall of Fame</a>
+              </li>
             </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+          </li>
+
+          <li>
+            <a href="../pages/contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right show-for-large-up hidden-md hidden-sm">
+          <li>
+            <a class="navbar-brand" href="../pages/membership.html">
+              <button class="btn-success">Become a Member!</button>
+            </a>
+          </li>
+          <li>
+            <a class="navbar-brand" href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218" target="_blank">
+              <img alt="facebook" src="../img/social_media/facebook-logo-white.png" class="logo">
+            </a>
+          </li>
+          <li>
+            <a class="navbar-brand" href="https://instagram.com/calstatela_acm/" target="_blank">
+              <img alt="instagram" src="../img/social_media/instagram-logo-white.png" class="logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
-</nav>
-<!-- /navbar -->
+  </nav>
+  <!-- /navbar -->
 
-<!-- begin body -->
-<div class="container">
-
-    <div>
+  <!-- begin body -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-*">
         <h1 class="text-center meeting-info-title">Events</h1>
         <div class="hr margin-top-30"></div>
+      </div>
     </div>
 
 
-    <div class="d-flex description-box-black ">
-        <div class="flex-column box-buffer ml-5">
-            <h3>Upcoming Meetings</h3>
-
+    <div class="row margin-15">
+      <div class="col-lg-10 col-centered">
+        <br>
+        <div class="row margin-top-15">
+          <div class="col-xs-6">
+            <p>
+              <h3>Upcoming Meeting</h3>
+            </p>
             <p class="meeting-info-title">General Meeting #1 : Tuesday, August 28th, 2018, 3:00 - 4:30 pm in FA 321</p>
-            <s> <h4> Workshop #1 : Tuesday, September 11th, 2018 - <b> <font color="red"> Arduino Car project : Fine Arts Room FA 321 <br> Social Media project : King Hall D2076 </b> </font>  <br> 3:00 - 4:20 pm</h4> </s>
+          <s> <h4> Workshop #1 : Tuesday, September 11th, 2018 - <b> <font color="red"> Arduino Car project : Fine Arts Room FA 321 <br> Social Media project : King Hall D2076 </b> </font>  <br> 3:00 - 4:20 pm</h4> </s>
             <p class="meeting-info-title"><s>Workshop #2 : Tuesday, September 25th, 2018- <b> <font color="red"> Arduino Car project : Fine Arts Room FA 321 <br> Social Media project : King Hall D1069 </b> </font>  <br> 3:00 - 4:20 pm</h4></s>
             <p class="meeting-info-title">Workshop #3 : Tuesday, October 9th, 2018, 3:00 - 4:30 pm <b> <font color="red"> Arduino Car project : Fine Arts Room FA 321 <br> Social Media project : King Hall D1069 </b> </font>  <br> 3:00 - 4:20 pm</h4></p>
             <p class="meeting-info-title">Workshop #4 : Tuesday, October 23rd, 2018, 3:00 - 4:30 pm Room TBD</p>
             <p class="meeting-info-title">Workshop #5 : Tuesday, November 6th, 2018, 3:00 - 4:30 pm Room TBD</p>
+<br>
+
+            <!--<a href="https://addevent.com/?Bx117625+outlook">Outlook</a> - <a href="https://addevent.com/?Bx117625+google">Google</a> - <a href="https://addevent.com/?Bx117625+yahoo">Yahoo</a> - <a href="https://addevent.com/?Bx117625+outlookcom">Outlook.com</a> - <a href="https://addevent.com/?Bx117625+appleical">Apple Calendar</a>          -->
+          </div>
+          <h4><p class="titles"><b>*** If you paid for membership after September 1st at 5:00PM, you are on a waitlist for projects. What should you do now? </h4></b></p>
+          <li>Please do not show up for the workshop meetings as we are running at full capacity for classrooms. We can only accomodate up to 70 members in our workshops.</li>
+          <!-- <li>If there is still room available in our workshops, you will be contacted through email. Please check your email regularly. </li> -->
+          <li><font color="red"><b>Important:</b> If you do not have a spot in the workshops, you will not be eligible for extra credit. No spot in project = No extra credit</font></li>
+          <li>However, if you remain on the waitlist for the projects this semester you will get priority to do the projects next semester. </li>
+<br>
+          <p><font color="red"><b> If you have ANY questions, please do not hesitate to email us on</font> <a href="mailto:acm.calstatela@gmail.com"> acm.calstatela@gmail.com</a> </p></b>
+
+          <div class="col-xs-6">
+            <img class=# "img-responsive margin-bottom-3" #src="../img/githubs.png" style="height: inherit; max-height: 400px">
+          </div>
         </div>
-    </div>
 
-    <!--<div class=" description-box-black">-->
-        <!--<div class="flex-column box-buffer ml-5">-->
-            <!--<h3>Upcoming Events</h3>-->
-
-            <!--<p></p>-->
-        <!--</div>-->
-    <!--</div>-->
-    <div class="hr"></div>
-
-    <div class=" description-box-black">
-    <div class="flex-column box-buffer ml-5">
-
-        <h4><p class="titles"><b>*** If you paid for membership after September 1st at 5:00PM, you are on a waitlist for
-            projects. What should you do now?</h4>
-        </b></p>
-        <ul>
-        <li>Please do not show up for the workshop meetings as we are running at full capacity for classrooms. We can only
-            accomodate up to 70 members in our workshops.
-        </li>
-        <!-- <li>If there is still room available in our workshops, you will be contacted through email. Please check your email regularly. </li> -->
-        <li><font color="red"><b>Important:</b> If you do not have a spot in the workshops, you will not be eligible for
-            extra credit. No spot in project = No extra credit</font></li>
-        <li>However, if you remain on the waitlist for the projects this semester you will get priority to do the projects
-            next semester.
-        </li>
-        <br>
-        <p><font color="red"><b> If you have ANY questions, please do not hesitate to email us on</font> <a
-                href="mailto:acm.calstatela@gmail.com"> acm.calstatela@gmail.com</a></p></b>
-
-        <div class="col-xs-6">
-            <img class="img-responsive margin-bottom-3" #src="../img/github.png" style="height: inherit; max-height: 400px">
-        </div>
-        </ul>
-    </div>
-    </div>
-
-
-    <div class="row margin-top-15">
-
-
-        <!--<p class="meeting-info-title">General Meeting #1 : Tuesday, August 28th, 2018, 3:00 - 4:30 pm in FA 321</p>-->
-        <!--<s> <h4> Workshop #1 : Tuesday, September 11th, 2018 - <b> <font color="red"> Arduino Car project : Fine Arts Room FA 321 <br> Social Media project : King Hall D2076 </b> </font>  <br> 3:00 - 4:20 pm</h4> </s>-->
-        <!--<p class="meeting-info-title"><s>Workshop #2 : Tuesday, September 25th, 2018- <b> <font color="red"> Arduino Car project : Fine Arts Room FA 321 <br> Social Media project : King Hall D1069 </b> </font>  <br> 3:00 - 4:20 pm</h4></s>-->
-
-        <br>
-
-
-        <!--<a href="https://addevent.com/?Bx117625+outlook">Outlook</a> - <a href="https://addevent.com/?Bx117625+google">Google</a> - <a href="https://addevent.com/?Bx117625+yahoo">Yahoo</a> - <a href="https://addevent.com/?Bx117625+outlookcom">Outlook.com</a> - <a href="https://addevent.com/?Bx117625+appleical">Apple Calendar</a>          -->
-
-</div>
-
-</div>
-</div>
-</div>
-
-
-<!-- /body -->
-
-<!-- begin footer -->
-<!-- <div class="container bottom center">
-  <div class="row">
-    <div class="col-xs-*">
-      <div class="hr"></div>
-      <p class="text-center footer-text">
-        Made with
-        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by the members of Cal State LA Association for Computing Machinery
-        <br> &copy; 2015 Cal State LA ACM. All rights reserved.
-      </p>
+      </div>
     </div>
   </div>
-</div> -->
-<!-- end footer -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+  <!-- /body -->
+
+  <!-- begin footer -->
+  <!-- <div class="container bottom center">
+    <div class="row">
+      <div class="col-xs-*">
+        <div class="hr"></div>
+        <p class="text-center footer-text">
+          Made with
+          <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by the members of Cal State LA Association for Computing Machinery
+          <br> &copy; 2015 Cal State LA ACM. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div> -->
+  <!-- end footer -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 
 
 </body>

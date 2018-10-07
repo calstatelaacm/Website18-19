@@ -42,9 +42,9 @@ h2.title {
     margin: 20px;
 }
 .instafeed {
-    position: absolute;
+    position: fixed;
     margin-left: 15%;
     border-radius: 15px;
-    height: 30%;
+    height: 100%;
     width: 30%;
 }
