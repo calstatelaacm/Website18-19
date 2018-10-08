@@ -93,6 +93,16 @@ li + img  {
     padding-right: 20px;
 }
 
+.center-one-item{
+    margin-left: 45%;
+
+}
+
+.image-container {
+    max-width: 1400px;
+    padding-left: 100px;
+}
+
 .hr {
   width: 97%;
   height: 2px;

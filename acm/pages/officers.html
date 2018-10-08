@@ -2,246 +2,196 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="keywords" content="Cal State LA, ACM, Computer Science, CS, Programming, Hackathon, CSULA, Cal State LA" />
-  <title>Cal State LA ACM</title>
-  <link rel="icon" type="image/png" href="../img/eagle-icon.png">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400, 700" rel="stylesheet" type="text/css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/master.css">
-  <link rel="stylesheet" href="../css/navbar.css">
-  <link rel="stylesheet" href="../css/styleSheet.css">
+    <meta charset="utf-8">
+    <meta name="keywords"
+          content="Cal State LA, ACM, Computer Science, CS, Programming, Hackathon, CSULA, Cal State LA"/>
+    <title>Cal State LA ACM</title>
+    <link rel="icon" type="image/png" href="../img/eagle-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400, 700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/styleSheet.css">
 </head>
 
 <body style="background-image:url(../img/stripes-light.png)">
 
-  <!-- begin navbar -->
-  <nav class="navbar navbar-custom navbar-fixed-top">
+<!-- begin navbar -->
+<nav class="navbar navbar-fixed-top navbar-custom navbar-expand-lg">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
-          <!-- for screen readers -->
-          <span class="sr-only">Toggle navigation</span>
-          <!-- for hamburger menu icon -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand hidden-sm" href="../index.html">
-          <img alt="acm" src="../img/eagle-icon.png" class="eagle-icon hidden-xs hidden-sm">
-        </a>
-      </div>
 
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="../index.html">Home</a>
-          </li>
-          <li>
-            <a href="../pages/calendar.html">Calendar</a>
-          </li>
-          <li>
-            <a href="../pages/membership.html">Membership</a>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources
-              <span class="caret"></span>
+
+        <div class="collapse navbar-collapse">
+            <a class="navbar-brand hidden-sm" href="../index.html">
+                <img alt="acm" src="../img/eagle-icon.png" class="eagle-icon hidden-xs hidden-sm">
             </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="../pages/events.html">General Events</a>
-              </li>
-              <li>
-               <a href="../pages/hackathons.html">Loyalty Card Program</a>
-             </li>
-              <li>
-                <a href="../pages/workshops.html">Past Workhops</a>
-              </li>
+        </div>
 
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="navbar-item ">
+                    <a class="nav-link" href="../pages/calendar.html">Calendar</a>
+                </li>
+                <li class="navbar-item ">
+                    <a class="nav-link" href="../pages/membership.html">Membership</a>
+                </li>
+                <li class="navbar-item dropdown navbar-custom">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                       aria-expanded="false">
+                        Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../pages/events.html">General Events</a>
+                        <a class="dropdown-item" href="../pages/loyalty_card.html">Loyalty Card Program</a>
+                        <a class="dropdown-item" href="../pages/workshops.html">Past Workhops</a>
+                    </div>
+                </li>
+                <li class="navbar-item ">
+                    <a class="nav-link" href="../pages/tutoring.html">Tutoring</a>
+                </li>
+                <li class="nav-item dropdown navbar-custom active-tab">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                       aria-expanded="false">
+                        Officers
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../pages/officers.html">Current</a>
+                        <a class="dropdown-item" href="../pages/past_officers.html">Hall of Fame</a>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="../pages/contact.html">Contact</a>
+                </li>
             </ul>
-          </li>
-          <li>
-            <a href="../pages/tutoring.html">Tutoring</a>
-          </li>
+        </div>
 
-          <li class="dropdown active-tab">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Officers
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="../pages/officers.html">Current</a>
-              </li>
-              <li>
-                <a href="../pages/past_officers.html">Hall of Fame</a>
-              </li>
-            </ul>
-          </li>
+        <div class="nav navbar-nav navbar-right show-for-large-up hidden-md d-none d-lg-block ">
 
-          <li>
-            <a href="../pages/contact.html">Contact</a>
-          </li>
-        </ul>
+            <li class="navbar-item">
+                <a class="navbar-brand" href="../pages/membership.html">
+                    <button class="btn-success">Become a Member!</button>
+                </a>
+            </li>
 
-        <ul class="nav navbar-nav navbar-right show-for-large-up hidden-md hidden-sm">
-          <li>
-            <a class="navbar-brand" href="../pages/membership.html">
-              <button class="btn-success">Become a Member!</button>
-            </a>
-          </li>
-          <li>
-            <a class="navbar-brand" href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218" target="_blank">
-              <img alt="facebook" src="../img/social_media/facebook-logo-white.png" class="logo">
-            </a>
-          </li>
-          <li>
-            <a class="navbar-brand" href="https://instagram.com/calstatela_acm/" target="_blank">
-              <img alt="instagram" src="../img/social_media/instagram-logo-white.png" class="logo">
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
+            <li>
+                <a class="navbar-brand"
+                   href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218"
+                   target="_blank">
+                    <img alt="facebook" src="../img/social_media/facebook-logo-white.png" class="logo">
+                </a></li>
+
+            </a></li>
+            <li><a class="navbar-brand" href="https://instagram.com/calstatela_acm/" target="_blank">
+                <img alt="instagram" src="../img/social_media/instagram-logo-white.png" class="logo">
+            </a></li>
+        </div>
+
+        <div class="navbar-header ">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-expanded="false">
+                <!-- for screen readers -->
+                <span class="sr-only">Toggle navigation</span>
+                <!-- for hamburger menu icon -->
+                <span class="icon-bar "></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
     </div>
-    <!-- /.container -->
-  </nav>
-  <!-- /navbar -->
 
-  <!-- begin body -->
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col-xs-*">
-        <h1 class="text-center meeting-info-title">Current Officers: </h1>
-        <h3 class="text-left">
-          <b> President </b>: Wilson Thomas </br>
-          <img src="../img/wilson.jpg" alt="Wilson Thomas" width="400" height="300" align="right" />
-        </br>
-          <b>Vice President</b>: Pranil Dahal </br>
-          </br>
-          <b>Treasurer</b>: David San</br>
-          </br>
-          <b>Secretary</b>: Dean Eab</br>
-          </br>
-          <b>VP Internal Affairs</b>: Giovanni Garcia</br>
-          </br>
-          <b>VP External Affairs</b>: Gaby Cortes</br>
-          </br>
-          <b>Webmaster</b>: Pavit Chawla</br>
-          </br>
-        </h3>
+</nav>
 
-      </div>
-    </div> -->
+<!-- /navbar -->
 
-    <!-- <div class="row">
-       <div class="col-lg-3 col-md-4 col-sm-6 text-center">
-        <img src="../img/wilson.JPG" class="profile">
-        <h4>Wilson Thomas</h4>
-        <h6>President</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 text-center">
-        <img src="../img/pranil.JPG" class="profile">
-        <h4>Pranil Dahal</h4>
-        <h6>Vice President</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 text-center">
-        <img src="../img/dean.JPG" class="profile">
-        <h4>Dean Eab</h4>
-        <h6>Treasurer</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 text-center">
-        <img src="../img/david.JPG" class="profile">
-        <h4>David San</h4>
-        <h6>Secretary</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 text-center">
-        <img src="../img/profiles/Gerardo.JPG" class="profile">
-        <h4>Gerardo Granados</h4>
-        <h6>Web Master</h6> -->
-      <!-- </div>
-       <div class="col-lg-3 col-md-4 col-sm-6 text-center">
-        <img src="../img/profiles/carlos.JPG" class="profile">
-        <h4>Carlos Larios-Solis</h4>
-        <h6>Public Relations</h6>
-      </div>
-    </div>
-  </div>  -->
-  <div class="row">
+
+<div class="row">
     <div style="width:100%;text-align:center;">
-      <h2><b><u>Board Members 2018-2019</u></b></h2>
-</div>
-      <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-        <img src="../img/wilson.jpeg" class="profile">
-        <h4>Wilson Thomas</h4>
-        <h6>President</h6>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-        <img src="../img/pranil.jpeg" class="profile">
-        <h4>Pranil Dahal</h4>
-        <h6>Vice President</h6>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-        <img src="../img/david1.jpeg" class="profile">
-        <h4>David San</h4>
-        <h6>Treasurer</h6>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-        <img src="../img/dean1.jpeg" class="profile">
-        <h4>Dean Roth</h4>
-        <h6>Secretary</h6>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-        <img src="../img/gio.jpeg" class="profile">
-        <h4>Giovanni Garcia</h4>
-        <h6>VP Internal Affairs </h6>
-      </div>
-      <!-- <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-        <img src="../img/gaby4.jpeg" class="profile">
-        <h4>Gaby Cortes</h4>
-        <h6>VP External Affairs </h6>
-      </div> -->
-      <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-        <img src="../img/brian.jpeg" class="profile">
-        <h4>Brian Hernandez</h4>
-        <h6>Project Manager</h6>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-        <img src="../img/pavit.jpeg" class="profile">
-        <h4>Pavit Chawla</h4>
-        <h6>Webmaster</h6>
-      </div>
+        <h2><b><u>Board Members 2018-2019</u></b></h2>
+    </div>
+    <div class="image-container">
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/wilson.jpeg" class="profile">
+            <h4>Wilson Thomas</h4>
+            <h6>President</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/pranil.jpeg" class="profile">
+            <h4>Pranil Dahal</h4>
+            <h6>Vice President</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/david1.jpeg" class="profile">
+            <h4>David San</h4>
+            <h6>Treasurer</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/dean1.jpeg" class="profile">
+            <h4>Dean Roth</h4>
+            <h6>Secretary</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/gio.jpeg" class="profile">
+            <h4>Giovanni Garcia</h4>
+            <h6>VP Internal Affairs </h6>
+        </div>
+        <!-- <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+          <img src="../img/gaby4.jpeg" class="profile">
+          <h4>Gaby Cortes</h4>
+          <h6>VP External Affairs </h6>
+        </div> -->
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/brian.jpeg" class="profile">
+            <h4>Brian Hernandez</h4>
+            <h6>Project Manager</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/pavit.jpeg" class="profile">
+            <h4>Pavit Chawla</h4>
+            <h6>Webmaster</h6>
+        </div>
     </div>
 
-      <div class="row">
+    <div class="row">
         <div style="width:100%;text-align:center;">
-          <h2><b><u>Officers</u></b></h2>
+            <h2><b><u>Officers</u></b></h2>
+        </div>
+        <br>
+        <div class="d-flex flex-row image-container">
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/profiles/kalvin.JPG" class="profile">
+            <h4>Kalvin Mateo</h4>
+            <h6>Administrative Officer</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/profiles/diego.jpg" height=250px width=200px>
+            <h4>Diego Flores</h4>
+            <h6>Finance Office</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/profiles/bonnie.JPG" class="profile">
+            <h4>Geovanny Huerta</h4>
+            <h6>Public Relation Officer</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/profiles/giovanni.jpg" class="profile">
+            <h4>Geovanni Castellanos</h4>
+            <h6>Digital Media Officer</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="../img/profiles/profile_placeholder.jpg" height=250px width=200px>
+            <h4>Ryan</h4>
+            <h6>Web/Networking Officer</h6>
+        </div>
+        </div>
     </div>
-    <br>
-    <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-      <img src="../img/profiles/kalvin.JPG" class="profile">
-      <h4>Kalvin Mateo</h4>
-      <h6>Administrative Officer</h6>
-    </div>
-    <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-      <img src="../img/profiles/diego.jpg" height=250px width=200px>
-      <h4>Diego Flores</h4>
-      <h6>Finance Office</h6>
-    </div>
-    <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-      <img src="../img/profiles/bonnie.JPG" class="profile">
-      <h4>Geovanny Huerta</h4>
-      <h6>Public Relation Officer</h6>
-    </div>
-    <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-      <img src="../img/profiles/giovanni.jpg" class="profile">
-      <h4>Geovanni Castellanos</h4>
-      <h6>Digital Media Officer</h6>
-    </div>
-    <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-      <img src="../img/profiles/profile_placeholder.jpg" height=250px width=200px >
-      <h4>Ryan</h4>
-      <h6>Web/Networking Officer</h6>
-    </div>
+</div>
     <!-- <div class="col-lg-2 col-md-4 col-sm-6 text-center">
       <img src="../img/profiles/deric.JPG" height=250px width=250px>
       <h4>Deric Kwok</h4>
@@ -249,29 +199,23 @@
     </div> -->
 
 
-
-
-
-
-
-
-  <!-- begin footer -->
-  <!-- <div class="container bottom center">
-    <div class="row">
-      <div class="col-xs-*">
-        <div class="hr"></div>
-        <p class="text-center footer-text">
-          Made with
-          <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by the members of Cal State LA Association for Computing Machinery
-          <br> &copy; 2018 Cal State LA ACM. All rights reserved.
-        </p>
+    <!-- begin footer -->
+    <!-- <div class="container bottom center">
+      <div class="row">
+        <div class="col-xs-*">
+          <div class="hr"></div>
+          <p class="text-center footer-text">
+            Made with
+            <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by the members of Cal State LA Association for Computing Machinery
+            <br> &copy; 2018 Cal State LA ACM. All rights reserved.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- end footer -->
+    <!-- end footer -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </body>
 
