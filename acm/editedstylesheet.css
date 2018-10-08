@@ -1,0 +1,114 @@
+/*editedstylesheet.css*/
+/* paragraph styling */
+
+.nice-looking {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 31px;
+    letter-spacing: -0.4px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+.meeting-info {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 350;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.titles {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 28px;
+    letter-spacing: -0.4px;
+    word-spacing: 1px;
+    color: #FF0000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+}
+
+.meeting-info-title{
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+}
+
+.tutor-classes{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.logo1 {
+  margin-top: -8px;
+  height: 35px;
+  width: 50px;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+/* .success:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+/* On mouse-over */
+/* .btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;} */ */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.imgmargin-arduniocar{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.imgmargin-socialmedia{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.margin{
+    margin-left: 300px;
+}
