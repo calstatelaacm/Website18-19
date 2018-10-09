@@ -58,6 +58,12 @@ li + img  {
   text-align: center;
 }
 
+.officerPicturesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .center {
   float: none;
   margin-left: auto;
@@ -80,17 +86,17 @@ li + img  {
 
 .description-box-black{
     max-width: 95%;
+
     max-height: 100%;
     background-color: rgba(50,50,50,.05);
     border-radius: 20px;
+
     text-align: start;
 }
 
 .box-buffer {
-    margin-top: 15px;
-    padding-left: 15px;
-    padding-bottom: 8px;
-    padding-right: 20px;
+    margin: 15px 20px 20px 0;
+    padding: 15px 0 8px 15px;
 }
 
 .center-one-item{
@@ -176,3 +182,7 @@ td {
   .instagram{
         margin: 20px;
       }
+
+  .officerContent{
+    padding: 50px;
+  }

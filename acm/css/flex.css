@@ -1,0 +1,29 @@
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+    padding-left: 10px;
+    /*flex-wrap: wrap;*/
+}
+
+#step-2 {
+    padding-left: 100px;
+    max-width: fit-content;
+
+    flex-wrap: wrap;
+}
+
+
+.ml-5{
+    margin-left: 25px;
+}
+
+.mt-4 {
+    margin-top: 20px;
+}
