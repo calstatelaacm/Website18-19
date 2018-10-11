@@ -1,80 +1,54 @@
-/* for collapse preference. Toggle icon will appear at > 1260px */
-@media (max-width: 1120px) {
-    /*.collapse, .navbar-toggle {
+/* for collapse preference. Toggle icon will appear at > 1120px */
+@media (max-width: 1149px) {
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+    .navbar .navbar-toggle {
         display:block !important;
     }
-    #navbar {
-        display:none !important;
+    .navbar-toggle .icon-bar {
+        background-color: white;
+        margin-left:4rem;
+        margin-right:4rem;
     }
-    .navbar-nav {
-        float: none !important;
-        margin-top: 7.5px;
+    .navbar .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
-    .navbar-nav > li {
-        float: none !important;
+    .navbar .navbar-collapse.collapse {
+        display: none !important;
     }
-    .navbar-nav> li> a {
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
+    .navbar .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar .navbar-collapse .navbar-nav>li {
+        float: none;
+    }
+    .navbar .navbar-collapse .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .collapse.in{
         display:block !important;
     }
-    .navbar-nav .open .dropdown-menu {
-       position: static !important;
-       float: none !important;
-       width: auto !important;
-       margin-top: 0 !important;
-       background-color: transparent !important;
-       border: 0 !important;
-       -webkit-box-shadow: none !important;
-       box-shadow: none !important;
-    }*/
-
-    .dropdown {
-    position: relative;
-    display: inline-block;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-}
-
-.navbar .navbar-collapse {
-    text-align: center;
-}
-
-}
-
-/* navbar */
-.navbar-toggle {
-  color: white;
-}
+/*custom settings for the navbar*/
 .navbar.navbar-custom {
   background-color: black;
   border-color: #FFFFFF;
   border: 0;
 }
 
+/* navbar tabs */
+.navbar-custom .navbar-nav > li {
+  margin: 0;
+}
+
 /* navbar default text */
 .navbar-custom .navbar-nav > li > a {
   color: white;
-}
-
-/* navbar tabs */
-.navbar-custom .navbar-nav > li {
-  margin: 0 2px;
 }
 
 /* navbar active tab */
@@ -100,24 +74,37 @@
   /* background-color: transparent; */
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
 .dropdown-menu {
   padding-top: 0;
   padding-bottom: 0;
 }
 
 /* dropdown menu divider */
-.dropdown-menu .divider {
+/*.dropdown .dropdown-menu .divider {
   margin-top: 0;
   margin-bottom: 0;
   background-color: #E0E0E0;
-}
+}*/
 
 /* dropdown menu list items */
-.dropdown-menu > li > a {
+.dropdown .dropdown-menu > li > a {
   background-color: white;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  color: black;
+  text-align: center;
 }
 
 /* display drop down menu on hover */
@@ -127,7 +114,7 @@
 }
 
 /* social media logos */
-.logo {
+/*.logo {
   margin-top: 7px;
   height: 35px;
   width: 35px;
@@ -136,7 +123,7 @@
   margin-top: -8px;
   height: 35px;
   width: 60px;
-}
+}*/
 
 
 /* navbar social media icons */
@@ -164,13 +151,6 @@ background-color: white;
   heigh: 60px;
 } */
 
-/* to change color of hamburger menu */
-.navbar-custom .navbar-toggle .icon-bar {
-    background-color: white;
-    margin-left:3rem;
-    margin-right:3rem;
-}
-
 .footer-text {
     font-size: 12px;
 }
@@ -181,18 +161,8 @@ background-color: white;
 
 .btn-custom {
     margin-top: 7px;  
-    margin-right: 2rem;
-    margin-left: 2rem;
-}
-
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-    text-align: center;
+    margin-right: 4rem;
+    margin-left: 4rem;
 }
 
 .acm_nav {
@@ -211,20 +181,20 @@ background-color: white;
 .acm-nav-logo {
     margin-top: -1rem;
     margin-left: 4rem;
+    margin-right: 4rem;
     height: 4rem;
     width: 4rem;
 }
 
 .social-media-logo-1 {
     margin-top: 7px;
-    margin-left: 2rem;
     height: 35px;
     width: 35px;
 }
 
 .social-media-logo-2 {
     margin-top: 7px;
-    margin-right: 2rem;
+    margin-right: 4rem;
     height: 35px;
     width: 35px;
 }
