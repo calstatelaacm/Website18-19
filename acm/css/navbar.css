@@ -1,5 +1,5 @@
 /* for collapse preference. Toggle icon will appear at > 1120px */
-@media (max-width: 1149px) {
+@media (max-width: 1180px) {
     .navbar .navbar-collapse {
         text-align: center;
     }
@@ -113,8 +113,8 @@
   margin-top: 0;
 }
 
-/* social media logos */
-/*.logo {
+/* social media/payment logos */
+.logo {
   margin-top: 7px;
   height: 35px;
   width: 35px;
@@ -123,13 +123,13 @@
   margin-top: -8px;
   height: 35px;
   width: 60px;
-}*/
+}
 
 
 /* navbar social media icons */
-/* .navbar-brand > img.logo {
-background-color: white;
-} */
+.navbar-brand > img.logo {
+  background-color: white;
+} 
 
 /* for footer text */
 .navbar-text {
@@ -181,7 +181,7 @@ background-color: white;
 .acm-nav-logo {
     margin-top: -1rem;
     margin-left: 4rem;
-    margin-right: 4rem;
+    margin-right: 6rem;
     height: 4rem;
     width: 4rem;
 }
