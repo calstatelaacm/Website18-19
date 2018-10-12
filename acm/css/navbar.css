@@ -1,5 +1,5 @@
 /* for collapse preference. Toggle icon will appear at > 1260px */
-@media (max-width: 1120px) {
+@media (max-width: 1150px) {
     .collapse, .navbar-toggle {
         display:block !important;
     }
@@ -11,9 +11,17 @@
         top: 0;
         border-width: 0 0 1px;
     }
+    .dropdown-menu{
+        right: 100%;
+        position: absolute;
+        margin-left: 250px;
+        padding-top: -40px;
+
+
+    }
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1150px) {
     .collapse, .navbar-toggle {
         display: block;
     }
@@ -28,6 +36,7 @@
     .navbar-collapse.collapse {
         display: none!important;
     }
+
     .navbar-nav {
         float: none!important;
         margin-top: 7.5px;
@@ -54,114 +63,146 @@
     }
 }
 
-.navbar .navbar-collapse {
-    text-align: center;
-}
+/*.navbar .navbar-collapse {*/
+    /*text-align: center;*/
+/*}*/
+
+
 
 
 
 /* navbar */
 .navbar-toggle {
-  color: white;
+    color: black;
 }
+
 .navbar.navbar-custom {
-  background-color: black;
-  border-color: #FFFFFF;
-  border: 0;
+    background-color: black;
+    border-color: #FFFFFF;
+    border: 0;
 }
 
 /* navbar default text */
 .navbar-custom .navbar-nav > li > a {
-  color: white;
+    color: white;
 }
 
 /* navbar tabs */
 .navbar-custom .navbar-nav > li {
-  margin: 0 2px;
+    margin: 0 2px;
 }
 
 /* navbar active tab */
 .navbar-custom .navbar-nav > .active-tab > a,
 .navbar-custom .navbar-nav > .active-tab > a:hover,
 .navbar-custom .navbar-nav > .active-tab > a:focus {
-  background-color: #FFD400;
-  color: #000000;
-  /*font-weight: bold;*/
+    background-color: #FFD400;
+    color: #000000;
+    /*margin: none;*/
+    /*font-weight: bold;*/
 }
 
 /* navbar hover over tabs */
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  background-color: #666666;
-  border-radius: 2px;
+    background-color: #666666;
+    border-radius: 2px;
 }
 
-.navbar-custom .navbar-brand, img:hover,
-.navbar-custom .navbar-brand, img:focus {
-  color: red;
-  /* background-color: transparent; */
+.navbar-custom .navbar-brand .button-box, img:hover,
+.navbar-custom .navbar-brand .button-box, img:focus {
+    color: red;
+    /* background-color: transparent; */
 }
+
+.button-box {
+    position: absolute;
+
+}
+
+.navbar-brand {
+    padding-right: 0px;
+    margin-bottom: 5px;
+}
+
+.navbarbox{
+    max-width: fit-content;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 .dropdown-menu {
-  padding-top: 0;
-  padding-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /* dropdown menu divider */
 .dropdown-menu .divider {
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: #E0E0E0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #E0E0E0;
 }
 
 /* dropdown menu list items */
-
-.dropdown-item  {
-  background-color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
+/*THIS CONTROLLS THE COLOR OF THE DROP DOWN ITEMS*/
+.dropdown-menu > li > a {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
-.dropdown-menu > a {
-    color: #FFFFFF;
-}
-
 
 /* display drop down menu on hover */
 .dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
+    display: block;
+    margin-top: 0;
 }
 
 /* social media logos */
 .logo {
-  margin-top: 7px;
-  height: 35px;
-  width: 35px;
+    margin-top: 7px;
+    height: 35px;
+    width: 35px;
 }
 .logo2 {
-  margin-top: -8px;
-  height: 35px;
-  width: 60px;
+    margin-top: -8px;
+    height: 35px;
+    width: 60px;
 }
 
 
-/*navbar social media icons*/
-/*.navbar-brand > img.logo {*/
-/*background-color: white;*/
-/*}*/
+/* navbar social media icons */
+/* .navbar-brand > img.logo {
+background-color: white;
+} */
 
 /* for footer text */
 .navbar-text {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .bottom {
-  /* to keep it at the bottom of the page */
-  position: absolute;
-  bottom: 0;
-  margin-top: 10px;
+    /* to keep it at the bottom of the page */
+    position: absolute;
+    bottom: 0;
+    margin-top: 10px;
 }
 
 /* .navbar-fixed-bottom {
@@ -188,14 +229,8 @@
 
 .btn-custom {
     margin-top: 7px;
-    margin-left: 5rem;
     margin-right: 2rem;
-}
-
-
-.navbar-item {
-  padding-left: auto;
-  padding-right: 10px;
+    margin-left: 2rem;
 }
 
 .navbar .navbar-nav {
@@ -209,16 +244,16 @@
 }
 
 .acm_nav {
-	height: 10%;
-	width: 10%;
+    height: 10%;
+    width: 10%;
 }
 
 .acm-logo{
     height: 100px;
-  	width: 100px;
-  	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100px;
+    display: block;
+    margin-left: 500px;
+    padding-right: 4px;
 }
 
 .acm-nav-logo {
@@ -230,12 +265,14 @@
 
 .social-media-logo-1 {
     margin-top: 7px;
+    margin-left: 2rem;
     height: 35px;
     width: 35px;
 }
 
 .social-media-logo-2 {
     margin-top: 7px;
+    margin-right: 2rem;
     height: 35px;
     width: 35px;
 }
