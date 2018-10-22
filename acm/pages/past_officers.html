@@ -69,7 +69,7 @@
 
             <!-- navbar-collapse. Buttons and items are collapsable -->
             <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav d-flex flex-row">
                     <li class="nav-item ">
                         <a class="nav-link" href="../index.html">
                             Home
@@ -80,16 +80,15 @@
                             Calendar
                         </a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item \">
                         <a class="nav-link" href="../pages/membership.html">
                             Membership
                         </a>
                     </li>
-                    <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
-                           aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item dropdown">
+                        <a href="#" >
                             <!-- caret is arrow symbol -->
-                            Resources<span class="caret"/>
+                            Resources</span><span class="caret"/>
                         </a>
                         <ul class="dropdown-menu">
                             <li>
@@ -103,14 +102,13 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="../pages/tutoring.html">
                             Tutoring
                         </a>
                     </li>
                     <li class="nav-item dropdown active-tab">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
-                           aria-haspopup="true" aria-expanded="false">
+                        <a href="#">
                             Officers<span class="caret"></span>
                         </a>
 
@@ -119,31 +117,38 @@
                                 <a href="../pages/officers.html">Current</a>
                             </li>
                             <li>
-                                <a href="../pages/past_officers.html">Hall of Fame</a>
+                                <a class="" href="../pages/past_officers.html">Hall of Fame</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav-item">
                         <a href="../pages/contact.html">
                             Contact
                         </a>
                     </li>
+                    <!-- use of improper tag is known, easiest way to make nav bar "work" -->
+                    <div class="d-flex flex-row last-child">
+                        <a class="nav-link" href="../pages/membership.html">
+                            <button class="btn btn-success btn-custom" style="text-transform: none">Become a Member!
+                            </button>
+                        </a>
+                        <a class="nav-link"
+                           href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218"
+                           target="_blank">
+                            <img alt="facebook" src="../img/social_media/facebook-logo-white.png"
+                                 class="social-media-logo-1">
+                        </a>
+                        <a class="nav-link" href="https://instagram.com/calstatela_acm/" target="_blank">
+                            <img alt="instagram" src="../img/social_media/instagram-logo-white.png"
+                                 class="social-media-logo-2">
+                        </a>
+                    </div>
 
                 </ul>
-                <a class="nav-link" href="../pages/membership.html">
-                    <button class="btn btn-success btn-custom" style="text-transform: none">Become a Member!
-                    </button>
-                </a>
-                <a class="nav-link"
-                   href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218"
-                   target="_blank">
-                    <img alt="facebook" src="../img/social_media/facebook-logo-white.png" class="social-media-logo-1">
-                </a>
-                <a class="nav-link" href="https://instagram.com/calstatela_acm/" target="_blank">
-                    <img alt="instagram" src="../img/social_media/instagram-logo-white.png"
-                         class="social-media-logo-2">
-                </a>
+
+
             </div>
+
             <!-- /.container -->
         </div>
     </nav>

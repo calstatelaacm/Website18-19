@@ -86,8 +86,7 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
-                           aria-haspopup="true" aria-expanded="false">
+                        <a href="#">
                             <!-- caret is arrow symbol -->
                             Resources</span><span class="caret"/>
                         </a>
@@ -109,8 +108,7 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
-                           aria-haspopup="true" aria-expanded="false">
+                        <a href="#">
                             Officers<span class="caret"></span>
                         </a>
 
@@ -128,22 +126,29 @@
                             Contact
                         </a>
                     </li>
+                    <!-- use of improper tag is known, easiest way to make nav bar "work" -->
+                    <div class="d-flex flex-row last-child">
+                        <a class="nav-link" href="pages/membership.html">
+                            <button class="btn btn-success btn-custom" style="text-transform: none">Become a Member!
+                            </button>
+                        </a>
+                        <a class="nav-link"
+                           href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218"
+                           target="_blank">
+                            <img alt="facebook" src="img/social_media/facebook-logo-white.png"
+                                 class="social-media-logo-1">
+                        </a>
+                        <a class="nav-link" href="https://instagram.com/calstatela_acm/" target="_blank">
+                            <img alt="instagram" src="img/social_media/instagram-logo-white.png"
+                                 class="social-media-logo-2">
+                        </a>
+                    </div>
 
                 </ul>
-                <a class="nav-link" href="pages/membership.html">
-                    <button class="btn btn-success btn-custom" style="text-transform: none">Become a Member!
-                    </button>
-                </a>
-                <a class="nav-link"
-                   href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218"
-                   target="_blank">
-                    <img alt="facebook" src="img/social_media/facebook-logo-white.png" class="social-media-logo-1">
-                </a>
-                <a class="nav-link" href="https://instagram.com/calstatela_acm/" target="_blank">
-                    <img alt="instagram" src="img/social_media/instagram-logo-white.png"
-                         class="social-media-logo-2">
-                </a>
+
+
             </div>
+
             <!-- /.container -->
         </div>
     </nav>
@@ -452,9 +457,6 @@
 </div>
 
 
-
-
-
 <!---------------------- START Instagram Feed ----------------------------->
 <script type="text/javascript">
     var feed = new Instafeed({
@@ -472,7 +474,7 @@
     feed.run();
 </script>
 <hr class="hr " style="margin-left: 15px;">
-<div class="container" >
+<div class="container">
     <h2 class="text-center hidden-xs">ACM Instagram Feed</h2>
     <img class="img-responsive center-block hidden-xs" src="img/insta.png" alt="Instagram Icon" height="64"
          width="64">
@@ -499,15 +501,15 @@
 
 <!-- begin footer -->
 
-    <div class="container footer">
+<div class="container footer">
 
-        <p class="text-center footer-text" style="color: black">
-            Made with
-            <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by the members of Cal State LA
-            Association for Computing Machinery
-            <br> &copy; 2018 Cal State LA ACM. All rights reserved.
-        </p>
-    </div>
+    <p class="text-center footer-text" style="color: black">
+        Made with
+        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by the members of Cal State LA
+        Association for Computing Machinery
+        <br> &copy; 2018 Cal State LA ACM. All rights reserved.
+    </p>
+</div>
 <!-- end footer -->
 
 <script>

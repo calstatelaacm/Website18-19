@@ -16,7 +16,7 @@
 <body style="background-image:url(../img/stripes-light.png)">
 
 <div class="">
-  <nav class="navbar navbar-custom navbar-fixed-top ">
+  <nav class="navbar navbar-custom navbar-fixed-top">
     <div class="container-fluid">
       <!-- this button will not be collapsable: aria-expanded = false -->
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -33,12 +33,9 @@
         <img alt="acm" src="../img/logos/acm_small.png" class="acm-nav-logo">
       </a>
 
-
-
       <!-- navbar-collapse. Buttons and items are collapsable -->
-      <div class="collapse navbar-collapse " id="navbar">
-        <ul class="nav navbar-nav  justify-content-around" style="white-space: nowrap">
-
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav d-flex flex-row">
           <li class="nav-item ">
             <a class="nav-link" href="../index.html">
               Home
@@ -49,16 +46,15 @@
               Calendar
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item active-tab">
             <a class="nav-link" href="../pages/membership.html">
               Membership
             </a>
           </li>
-          <li class="nav-item dropdown active-tab dropdown-menu-right  ">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
-               aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item dropdown">
+            <a href="#" >
               <!-- caret is arrow symbol -->
-              Resources<span class="caret"/>
+              Resources</span><span class="caret"/>
             </a>
             <ul class="dropdown-menu">
               <li>
@@ -80,7 +76,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
                aria-haspopup="true" aria-expanded="false">
-              Officers<span class="caret"/>
+              Officers<span class="caret"></span>
             </a>
 
             <ul class="dropdown-menu">
@@ -92,26 +88,34 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-item">
             <a href="../pages/contact.html">
               Contact
             </a>
           </li>
-          <a class="nav-link" href="../pages/membership.html">
-            <button class="btn btn-success btn-custom" style="text-transform: none">Become a Member!
-            </button>
-          </a>
-          <a class="nav-link"
-             href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218"
-             target="_blank">
-            <img alt="facebook" src="../img/social_media/facebook-logo-white.png" class="social-media-logo-1">
-          </a>
-          <a class="nav-link" href="https://instagram.com/calstatela_acm/" target="_blank">
-            <img alt="instagram" src="../img/social_media/instagram-logo-white.png"
-                 class="social-media-logo-2">
-          </a>
+          <!-- use of improper tag is known, easiest way to make nav bar "work" -->
+          <div class="d-flex flex-row last-child">
+            <a class="nav-link" href="../pages/membership.html">
+              <button class="btn btn-success btn-custom" style="text-transform: none">Become a Member!
+              </button>
+            </a>
+            <a class="nav-link"
+               href="https://www.facebook.com/calstatela.acm?lst=100006738036671%3A100006738036671%3A1535065218"
+               target="_blank">
+              <img alt="facebook" src="../img/social_media/facebook-logo-white.png"
+                   class="social-media-logo-1">
+            </a>
+            <a class="nav-link" href="https://instagram.com/calstatela_acm/" target="_blank">
+              <img alt="instagram" src="../img/social_media/instagram-logo-white.png"
+                   class="social-media-logo-2">
+            </a>
+          </div>
+
         </ul>
+
+
       </div>
+
       <!-- /.container -->
     </div>
   </nav>
