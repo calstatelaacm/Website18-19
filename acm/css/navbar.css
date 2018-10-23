@@ -23,7 +23,7 @@
     .dropdown-menu {
         padding: 0 !important;
         box-shadow: none !important;
-        transform: translate(8.8rem,0);
+        transform: translate(3.4rem,0);
     }
     .navbar .navbar-nav > li {
         float: none !important;
@@ -42,7 +42,7 @@
         width: 35px;
         margin-left: 4rem;
     }
-    .navbar .collapse.in{ 
+    .navbar .collapse.in{
         display:block !important;
     }
 }
